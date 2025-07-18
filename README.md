@@ -97,29 +97,6 @@ The application includes several sample configurations for testing:
 3. **File & Card**: File upload and nested form example
 4. **Complex Nested**: Multi-level nested forms with various field types
 
-## 🚀 Deployment
-
-### Netlify Deployment (Automated)
-
-The application is configured for automatic deployment to Netlify:
-
-1. **Build Command**: `npm run build`
-2. **Publish Directory**: `dist`
-3. **Node Version**: 18
-4. **Redirects**: SPA routing configured
-5. **Headers**: Security headers included
-
-### Manual Deployment
-
-```bash
-# Build for production
-npm run build
-
-# Preview production build locally
-npm run preview
-```
-
-The built files will be in the `dist` directory, ready for deployment to any static hosting service.
 
 ## 🏗️ Architecture
 
